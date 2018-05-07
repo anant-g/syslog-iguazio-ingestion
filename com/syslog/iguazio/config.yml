@@ -1,0 +1,12 @@
+syslog:
+    host: 127.0.0.1
+    port: 1604
+rrd:
+    location: /var/www/html/gnoc/rrd/QOS/
+iguazio:
+    nginx_host: 10.80.1.59
+    nginx_port: 8081
+    container_id: 1
+    syslog_kv: /syslog
+    user: iguazio
+    pwd:  datal@ke!
